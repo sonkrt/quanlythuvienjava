@@ -29,8 +29,8 @@ public class SendGmail {
         proper.put("mail.smtp.host", "smtp.gmail.com");
         proper.put("mail.smtp.port", "587");
         
-        String myEmail = "librarysystems.031099@gmail.com";
-        String passWord = "sonkarate19";
+        String myEmail = "";
+        String passWord = "";
         Session session = Session.getInstance(proper, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
